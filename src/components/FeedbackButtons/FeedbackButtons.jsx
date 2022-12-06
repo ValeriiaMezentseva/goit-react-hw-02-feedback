@@ -15,8 +15,6 @@ const FeedbackOptions = ({ buttons, onLeaveFeedback, onReset}) => {
             )
             )}
             <ButtonReset type='button'
-                key={buttons[3]}
-                id={buttons[3]}
                 onClick={onReset}>Reset
             </ButtonReset>
         </ButtonsList>
